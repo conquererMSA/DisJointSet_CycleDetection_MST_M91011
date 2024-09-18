@@ -34,7 +34,7 @@ void dsuUnion(int a, int b){ //parent merge kore and parent assign kore....
 void dsuUnionByLevel(int a, int b){ //parent merge kore and parent assign kore....
     int parA=findParent(a);
     int parB=findParent(b);
-    //assign parent by checking size
+    assign parent by checking size
     if(level[parA]>level[parB]){
         parent[parB]=parA;
     }
