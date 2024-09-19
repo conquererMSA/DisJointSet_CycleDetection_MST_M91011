@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 /*
+ DSU directed graph e kaj kore na. Undirected graph e khub sohoje Cycle detect kora zay.
  Duti set er moddye intersaction korle zodi faka/empty set pawya zay sei faka/empty set i hocce disjoin union set. Duita vinno set er intersaction korle faka set pawya zabe.
 
  Duti set er moddye union korar kkhetre tader moddye kuno common node/element thakte parbe na.
