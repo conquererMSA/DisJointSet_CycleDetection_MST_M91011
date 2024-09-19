@@ -1,6 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
+/*
+MST ekti graph er multiple path and edge bad diye graph er total cost(weight) komiye ane and graph tike Tree te convert kore.  Zehetu MST multiple edge and path remove kore dey, sehtu kuno cycle create hoy na.
 
+MST graph er sob gulu node ke less cost edge dara interconnect kore, graph er total cost komiye dey. Zodi zodi kuno ekti node e visit korar ekdik path and cots thake tahole Kruskal algo less cost edge-path hisab kore. Beshi cost edge-path bad diye dey.
+
+cost diye edgeList ke sort korte hobe.
+check korte hobe edge er node gulu ekoi group er kina...
+
+*/
 class Edge{
     public:
     int u,v,w;
@@ -72,3 +80,17 @@ int main(){
     cout << minimumConnectionCost << endl;
     return 0;
 }
+/*
+input
+5 7
+0 1 2
+0 2 3
+0 3 3
+3 4 6
+2 4 4
+2 1 7
+1 4 5
+
+output
+12
+*/
