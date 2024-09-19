@@ -55,3 +55,11 @@ int main(){
     else cout<<"No cycle";
     return 0;
 }
+/*
+4 3
+0 1
+0 2
+0 3
+
+No cycle
+*/
