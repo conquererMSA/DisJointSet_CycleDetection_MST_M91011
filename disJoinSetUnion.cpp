@@ -43,7 +43,8 @@ void dsuUnionByLevel(int a, int b){ //parent merge kore and parent assign kore..
         parent[parA]=parB;
     }
     else{
-        parent[parB]=parB;
+        parent[parB]=parA;
+        level[parA]++;
     }
  }
 
